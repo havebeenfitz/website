@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Max Kraev - Senior iOS Engineer</title>
+  <link rel="stylesheet" href="public/main.css">
+</head>
+<body>
+  <main>
+    <header>
+      <img src="public/i/avatar.jpg" alt="Avatar" class="avatar">
+      <div class="header-content">
+        <h1>Maksim Kraev</h1>
+        <div class="subtitle">
+          Senior iOS Engineer with 4+ years of experience.
+          Contributing to open source.
+          In love with automation, code generation, and CI/CD pipelines.
+        </div>
+        <div class="contacts">
+          <a href="https://github.com/havebeenfitz" target="_blank" rel="noopener noreferrer">
+            <span class="icon">
+              <img src="public/i/logo_github.svg" alt="GitHub" />
+            </span>
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/maxkraev/" target="_blank" rel="noopener noreferrer">
+            <span class="icon">
+              <img src="public/i/logo_linkedin.svg" alt="CodersRank" />
+            </span>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </div>
+      </div>
+    </header>
+    <section>
+      <h2>My Coding Activity & Stats</h2>
+
+      <div class="widget activity-widget">
+        <codersrank-activity
+          username="havebeenfitz"
+          legend="false"
+          labels
+          tooltip
+          step="5"
+          svg-width="1120"
+          branding="false"
+        ></codersrank-activity>
+      </div>
+      <codersrank-skills-chart
+        class="widget"
+        username="havebeenfitz"
+        legend="false"
+        tooltip
+        labels
+        skills="Objective-C,Swift,Ruby,CI/CD"
+        svg-width="1120"
+        svg-height="400"
+        branding="false"
+      ></codersrank-skills-chart>
+    </section>
+    <section>
+      <h2>Recent Projects</h2>
+
+      <codersrank-portfolio
+        username="havebeenfitz"
+        grid
+        company="false"
+        branding="false"
+      ></codersrank-portfolio>
+
+    </section>
+    <section>
+      <h2>Work Experience & Education</h2>
+
+      <codersrank-work-experience
+        username="havebeenfitz"
+        logos
+        branding="false"
+      ></codersrank-work-experience>
+
+      <codersrank-education
+        username="havebeenfitz"
+        branding="false"
+      ></codersrank-education>
+    </section>
+
+    <footer>
+      Copyright © 2022 Maksim Kraev
+    </footer>
+  </main>
+
+  <script src="https://unpkg.com/@codersrank/activity/codersrank-activity.min.js"></script>
+  <script src="https://unpkg.com/@codersrank/skills-chart/codersrank-skills-chart.min.js"></script>
+  <script src="https://unpkg.com/@codersrank/portfolio/codersrank-portfolio.min.js"></script>
+  <script src="https://unpkg.com/@codersrank/work-experience/codersrank-work-experience.min.js"></script>
+  <script src="https://unpkg.com/@codersrank/education/codersrank-education.min.js"></script>
+</body>
+</body>
+</html>
